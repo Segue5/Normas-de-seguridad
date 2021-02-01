@@ -1,0 +1,65 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(img/ITESARC.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}   
+.background{
+    
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+header{
+    background: #fff7;
+    transition: background-color .5s;
+    width: 100%;
+}
+
+header h2{
+    padding: 20px;
+    margin: 0px;
+}
+
+header:hover{
+    background: #fffa;
+}
+
+article{
+    margin: 20px;
+    background: #333a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5%;
+    transition: background-color .5s, transform .5s;
+    text-shadow: 4px 4px 2px #000 (150, 150, 150, 1);
+}
+
+article:hover{
+    background: #333e;
+    transform: translateX(20px);
+}
+
+.subtitle{
+    color: #4e6;
+}
+
+ul li b{
+    color: #4e6;
+}
+
+.note-container{
+    display: flex;
+}
+.note{
+    margin: auto;
+    font-size: 30px;
+    color: #4e6;
+}
